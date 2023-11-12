@@ -9,7 +9,7 @@ import ErrorMessage from '../errorMessage/errorMessage';
 
 const RandomChar = (props) => {
 
-      const [char, setChar] = useState({});
+    const [char, setChar] = useState({});
 
     const {loading, error, getCharacter, clearError} = useMarvelService();
 
